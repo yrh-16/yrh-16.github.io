@@ -46,7 +46,7 @@
                     <div data-v-69238719="" class="h60 br">
                         <div data-v-69238719="" class="flex justify-center align-center mt5">有效期</div>
                         <div data-v-69238719="" class="flex justify-center align-center mt5">
-                            2022-08-04 16:30 至 2022-08-04 19:30
+                            2022-10-20 10:30 至 2022-10-20 19:30
                         </div>
                     </div>
                     <div id="0"
@@ -59,7 +59,7 @@
                 <div data-v-69238719="" class="h60 br">
                     <div data-v-69238719="" class="flex justify-center align-center mt5">有效期</div>
                     <div data-v-69238719="" class="flex justify-center align-center mt5">
-                        2022-08-11 16:30 至 2022-08-11 18:15
+                        2022-10-11 16:30 至 2022-10-11 18:15
                     </div>
                 </div>
                 <div id="1"
@@ -72,7 +72,7 @@
                 <div data-v-69238719="" class="h60 br">
                     <div data-v-69238719="" class="flex justify-center align-center mt5">有效期</div>
                     <div data-v-69238719="" class="flex justify-center align-center mt5">
-                        2022-08-06 15:00 至 2022-08-06 22:30
+                        2022-10-06 15:00 至 2022-10-06 22:30
                     </div>
                 </div>
                 <div id="2"
@@ -85,7 +85,7 @@
                 <div data-v-69238719="" class="h60 br">
                     <div data-v-69238719="" class="flex justify-center align-center mt5">有效期</div>
                     <div data-v-69238719="" class="flex justify-center align-center mt5">
-                        2022-05-01 09:30 至 2022-05-02 19:30
+                        2022-10-01 09:30 至 2022-10-02 19:30
                     </div>
                 </div>
                 <div id="3"
@@ -98,10 +98,23 @@
                 <div data-v-69238719="" class="h60 br">
                     <div data-v-69238719="" class="flex justify-center align-center mt5">有效期</div>
                     <div data-v-69238719="" class="flex justify-center align-center mt5">
-                        2022-05-01 09:30 至 2022-05-02 19:30
+                        2022-09-29 09:30 至 2022-09-30 19:30
                     </div>
                 </div>
                 <div id="4"
+                style="pointer-events: none; top: 5px; left: -305px; position: absolute; z-index: 100000; width: 1e+07px; height: 622px; background: url() left top repeat;"></div>
+       </li><li data-v-69238719="" class="bg-white bdr-p5 h120 relative mb10 pos-rel hidden numberClass watermark0">
+           <div data-v-69238719="" class="radio1"></div>
+           <div data-v-69238719="" class="radio2"></div>
+           <div data-v-69238719="" class="title h60 flex justify-center align-center fz23 red"><span
+                   data-v-69238719="">已过期</span></div>
+           <div data-v-69238719="" class="h60 br">
+               <div data-v-69238719="" class="flex justify-center align-center mt5">有效期</div>
+               <div data-v-69238719="" class="flex justify-center align-center mt5">
+                   2022-09-27 09:30 至 2022-09-29 19:30
+               </div>
+           </div>
+                <div id="5"
                      style="pointer-events: none; top: 5px; left: -305px; position: absolute; z-index: 100000; width: 1e+07px; height: 622px; background: url() left top repeat;"></div>
             </li>
             </ul>
@@ -173,6 +186,8 @@
 
     document.getElementById('4').style.background = "url(" + b.toDataURL("image/png") + ") left top repeat";
    
+    document.getElementById('5').style.background = "url(" + b.toDataURL("image/png") + ") left top repeat";
+
     let t = document.getElementsByClassName('title h60')[0];
     t.classList.replace('red', 'green');
     t.getElementsByTagName('span')[0].innerText = '可通行';
@@ -191,6 +206,7 @@ setInterval(()=>{
     document.getElementById('2').style.left=i+'px';
     document.getElementById('3').style.left=i+'px';
     document.getElementById('4').style.left=i+'px';
+    document.getElementById('5').style.left=i+'px';
 
 },50)
 </script>
